@@ -1,0 +1,60 @@
+import math
+import sys
+import numpy as np
+import itertools
+import copy
+
+import sys
+sys.setrecursionlimit(10 ** 7)
+
+#提出時は以下消去
+from icecream import ic
+
+
+
+
+
+#文字列入力
+ =input()
+
+#整数入力
+ =int(input())
+
+#文字列分割入力
+ =input().split()
+
+#整数分割入力
+ =map(int,input().split())
+
+#リスト文字列入力
+ =list(input().split())
+
+#リスト整数入力
+ =list(map(int,input().split()))
+
+#リスト文字列入力　改行
+n = int(input())
+li = []
+for i in range(n):
+    li.append(input())
+
+#リスト整数入力　改行
+n = int(input())
+li = []
+for i in range(n):
+    li.append(int(input()))
+
+#リスト文字列分割入力　改行
+n = int(input())
+li = []
+for i in range(n):
+    li.append(input().split())
+
+#リスト整数分割入力　改行
+n = int(input())
+li = []
+for i in range(n):
+    li.append(list(map(int,input().split())))
+
+# 桁数指定(相対誤差が指定されているとき)
+print('{:.10f}'.format(ans))
