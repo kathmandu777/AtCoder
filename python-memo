@@ -10,7 +10,7 @@ sys.setrecursionlimit(10 ** 7)
 #提出時は以下消去
 from icecream import ic
 
-
+巨大数の計算結果がおかしい（精度など）場合は「//」整数除算を用いるとよい
 
 
 
